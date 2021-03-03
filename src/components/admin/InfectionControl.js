@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-import { BASE_URL, headers } from "../../constants/Api";
+import React from "react";
 import InfectionControlItem from "./InfectionControlItem";
 import { Container, Col, Row } from "react-bootstrap";
 
