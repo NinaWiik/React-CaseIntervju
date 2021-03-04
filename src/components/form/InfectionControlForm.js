@@ -55,7 +55,7 @@ function InfectionControlForm() {
     fetch(url, options)
       .then((r) => r.json())
       .then((j) => {
-        console.log("ok!!");
+        console.log("data");
       });
     console.log("data", data);
   }
@@ -68,7 +68,7 @@ function InfectionControlForm() {
             <h1>Legg inn Smittevern</h1>
             <div>
               <Form.Group>
-                <Form.Label>Fornavn & Etternavn</Form.Label>
+                <Form.Label>Fult Navn</Form.Label>
                 <Form.Control
                   name="name"
                   placeholder="Fyll inn fult navn"

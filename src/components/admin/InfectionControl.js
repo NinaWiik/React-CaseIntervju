@@ -1,19 +1,9 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import { BASE_URL, headers } from "../../constants/Api";
 import InfectionControlItem from "./InfectionControlItem";
 import { Container, Col, Row } from "react-bootstrap";
 
 function InfectionControl() {
-  <form name="contact" method="POST" data-netlify="true">
-    <o>
-      <label>
-        Your Name: <input type="text" name="name" />
-      </label>
-    </o>
-    <button type="submit">Send</button>
-  </form>;
-}
-
-/*function InfectionControl() {
   const [infectionControl, setInfectionControl] = useState([]);
 
   const url = BASE_URL + "infectionControl";
@@ -49,6 +39,6 @@ function InfectionControl() {
       </Row>
     </Container>
   );
-}*/
+}
 
 export default InfectionControl;
